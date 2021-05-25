@@ -201,4 +201,80 @@ footer
 }
 
 
+/*--------------
+SP
+-------------*/
+@media screen and (max-width: 600px) {
+  .wrapper {
+    margin-bottom: 70px;
+  }
+  .site-title {
+    margin-top: 20px;
+  }
+  .sec-title {
+    margin-bottom: 40px;
+  }
+
+  /*------
+  header
+  -------*/
+  #header {
+    max-width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  #header li {
+    font-size: 0.8rem;
+    margin-left: 20px;
+  }
+
+  #header li:first-child {
+    margin-left: 0;
+  }
+
+  /*-------
+  work
+  --------*/
+  #works ul {
+    flex-direction: column;
+  }
+
+  #works li {
+    width: 100%;
+  }
+
+  /*--------
+  News
+  ---------*/
+  #news dl {
+    flex-direction: column;
+  }
+
+  #news dt {
+    width: 100%;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  #news dd {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  /*-------
+  Contact
+  -------*/
+  #contact dl {
+    flex-direction: column;
+  }
+  #contact dt {
+    width: 100%;
+  }
+  #contact dd {
+    width: 100%;
+  }
+}
+
+
 
